@@ -3,83 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberShield Core v9.0 - Next-Gen Security</title>
+    <title>QuantumRevenue AI - Enterprise Analytics Suite</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { font-family: 'Cairo', sans-serif; background-color: #020617; }
-        .code-font { font-family: 'Fira Code', monospace; }
-        .cyber-grid { background-size: 40px 40px; background-image: linear-gradient(to right, rgba(16, 185, 129, 0.03) 1px, transparent 1px), linear-gradient(to bottom, rgba(16, 185, 129, 0.03) 1px, transparent 1px); }
-        .pulse-fast { animation: pulse 0.5s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+        body { font-family: 'Cairo', sans-serif; background-color: #030712; }
+        .glass-panel { background: rgba(17, 24, 39, 0.7); backdrop-filter: blur(25px); border: 1px solid rgba(99, 102, 241, 0.15); }
+        .bar-anim { transition: height 0.6s cubic-bezier(0.4, 0, 0.2, 1); }
     </style>
 </head>
-<body class="text-emerald-400 min-h-screen p-4 md:p-8 flex items-center justify-center cyber-grid">
+<body class="text-slate-100 min-h-screen p-4 md:p-8 flex items-center justify-center">
 
-    <!-- PLATFORM MAIN FRAME -->
-    <div class="w-full max-w-6xl bg-slate-950/90 border-2 border-emerald-500/30 rounded-3xl p-6 md:p-8 shadow-2xl shadow-emerald-950/50 relative">
+    <!-- GLOBAL ENTERPRISE FRAME -->
+    <div class="w-full max-w-6xl glass-panel rounded-3xl p-6 md:p-8 shadow-2xl relative border border-slate-800">
         
-        <!-- Header Matrix -->
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-emerald-500/20 pb-6 mb-6">
+        <!-- Top Core Branding and AI Indicator -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 border-b border-slate-800/80 pb-6 mb-6">
             <div>
-                <div class="flex items-center gap-3">
-                    <span class="bg-emerald-500 text-slate-950 font-black text-xs px-2 py-0.5 rounded animate-pulse">SYSTEM: ACTIVE</span>
-                    <h1 class="text-2xl font-black tracking-wider text-slate-100">CYBER-SHIELD <span class="text-emerald-500">AI</span></h1>
+                <div class="flex items-center gap-2.5">
+                    <span class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 text-[10px] font-bold px-2.5 py-1 rounded-md tracking-wider uppercase">Neural Predictive Core v4.2</span>
+                    <h1 class="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-slate-100 via-indigo-200 to-indigo-400">QuantumRevenue <span class="text-indigo-500">AI</span></h1>
                 </div>
-                <p class="text-xs text-slate-400 mt-1">النظام السيبراني المركزي لتأمين بوابات الشحن، ومخازن الملابس، وحسابات الـ E-Commerce</p>
+                <p class="text-xs text-slate-400 mt-2">نظام التحليل الإستراتيجي للتنبؤ بسلوك المستهلك، تسعير المنتجات ديناميكياً، ومضاعفة الهوامش الربحية</p>
             </div>
-            
-            <div class="bg-slate-900 px-4 py-2 rounded-xl border border-emerald-500/20 flex items-center gap-3">
-                <div class="text-right">
-                    <span class="text-[9px] text-slate-500 block code-font">CRYPT DATA PACKS</span>
-                    <span id="live-token" class="text-xs code-font font-bold text-slate-200">INIT_ENC_KEY_0x99</span>
-                </div>
-                <i class="fa-solid fa-shield-cat text-xl text-emerald-400"></i>
+
+            <!-- Total Scaled Revenue Metric Badge -->
+            <div class="bg-slate-950/80 px-5 py-3 rounded-2xl border border-indigo-500/20 text-left">
+                <span class="text-[10px] text-indigo-400 block font-bold tracking-widest uppercase">Target Revenue Prediction</span>
+                <span id="predicted-revenue-total" class="text-xl font-black text-slate-100 font-mono">1,420,000 EGP</span>
             </div>
         </div>
 
-        <!-- MAIN OPERATIONAL GRID -->
+        <!-- DASHBOARD GRID -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
             
-            <!-- CONTROLS & THREAT SIMULATOR -->
-            <div class="bg-slate-900/60 p-5 rounded-2xl border border-emerald-500/10 space-y-4">
-                <h3 class="text-sm font-bold text-slate-200 flex items-center gap-2"><i class="fa-solid fa-gears text-emerald-500"></i> وحدة المعالجة والتأمين</h3>
+            <!-- CONTROLLERS: Dynamic AI Pricing Modifiers -->
+            <div class="bg-slate-950/50 p-5 rounded-2xl border border-slate-800/60 space-y-5">
+                <h3 class="text-sm font-bold text-slate-200 flex items-center gap-2"><i class="fa-solid fa-wand-magic-sparkles text-indigo-400"></i> محاكاة استراتيجية التسعير الذكي</h3>
                 
-                <div class="p-4 bg-slate-950 rounded-xl border border-emerald-500/5 space-y-2">
-                    <span class="text-[11px] text-slate-400 block">حالة جدار الحماية للمخزن الرئيسي:</span>
-                    <div class="flex justify-between items-center">
-                        <span class="text-xs font-bold text-slate-100">تشفير القنوات الخلفية</span>
-                        <span class="text-xs text-emerald-400 code-font">AES-GCM-256</span>
+                <!-- Input 1: Base Price Slider -->
+                <div class="space-y-2">
+                    <div class="flex justify-between text-xs">
+                        <label class="text-slate-400">متوسط سعر المنتج المستهدف</label>
+                        <span id="price-val" class="text-indigo-400 font-mono font-bold">500 EGP</span>
+                    </div>
+                    <input type="range" id="price-slider" min="100" max="2000" value="500" class="w-full h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-500">
+                </div>
+
+                <!-- Input 2: Dynamic Volume Multiplier -->
+                <div class="space-y-2">
+                    <div class="flex justify-between text-xs">
+                        <label class="text-slate-400">حجم الحملة الإعلانية المرتقبة</label>
+                        <span id="traffic-val" class="text-indigo-400 font-mono font-bold">المستوى 3</span>
+                    </div>
+                    <input type="range" id="traffic-slider" min="1" max="5" value="3" class="w-full h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-indigo-500">
+                </div>
+
+                <!-- AI Run Trigger -->
+                <button onclick="revenueAI.computeForecast()" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3.5 rounded-xl transition-all text-xs flex items-center justify-center gap-2 shadow-lg shadow-indigo-600/20">
+                    <i class="fa-solid fa-bolt animate-pulse"></i> حقن البيانات وتشغيل التنبؤ الفوري
+                </button>
+            </div>
+
+            <!-- VISUALIZATION: Dynamic CSS-Powered Analytics Chart -->
+            <div class="lg:col-span-2 bg-slate-950/20 border border-slate-800 p-5 rounded-2xl flex flex-col justify-between">
+                <div>
+                    <h3 class="text-sm font-bold text-slate-200 mb-6 flex items-center gap-2"><i class="fa-solid fa-chart-simple text-indigo-400"></i> التوزيع المتوقع للمبيعات عبر الربع السنوي (Q1 - Q4)</h3>
+                    
+                    <!-- THE CHART FRAME -->
+                    <div class="flex items-end justify-between h-44 px-4 border-b border-slate-800 pb-2 gap-4">
+                        <!-- Q1 Bar -->
+                        <div class="flex flex-col items-center flex-1 group">
+                            <div id="bar-q1" class="w-full bg-gradient-to-t from-indigo-600 to-indigo-400 rounded-t-lg bar-anim h-20 relative">
+                                <span id="lbl-q1" class="absolute -top-6 left-1/2 -translate-x-1/2 text-[10px] font-mono text-indigo-300 opacity-0 group-hover:opacity-100 transition-opacity">20%</span>
+                            </div>
+                            <span class="text-[11px] text-slate-500 mt-2">الربع الأول</span>
+                        </div>
+                        <!-- Q2 Bar -->
+                        <div class="flex flex-col items-center flex-1 group">
+                            <div id="bar-q2" class="w-full bg-gradient-to-t from-indigo-600 to-cyan-400 rounded-t-lg bar-anim h-32 relative">
+                                <span id="lbl-q2" class="absolute -top-6 left-1/2 -translate-x-1/2 text-[10px] font-mono text-indigo-300 opacity-0 group-hover:opacity-100 transition-opacity">45%</span>
+                            </div>
+                            <span class="text-[11px] text-slate-500 mt-2">الربع الثاني</span>
+                        </div>
+                        <!-- Q3 Bar -->
+                        <div class="flex flex-col items-center flex-1 group">
+                            <div id="bar-q3" class="w-full bg-gradient-to-t from-indigo-600 to-indigo-400 rounded-t-lg bar-anim h-14 relative">
+                                <span id="lbl-q3" class="absolute -top-6 left-1/2 -translate-x-1/2 text-[10px] font-mono text-indigo-300 opacity-0 group-hover:opacity-100 transition-opacity">15%</span>
+                            </div>
+                            <span class="text-[11px] text-slate-500 mt-2">الربع الثالث</span>
+                        </div>
+                        <!-- Q4 Bar -->
+                        <div class="flex flex-col items-center flex-1 group">
+                            <div id="bar-q4" class="w-full bg-gradient-to-t from-indigo-600 to-purple-500 rounded-t-lg bar-anim h-28 relative">
+                                <span id="lbl-q4" class="absolute -top-6 left-1/2 -translate-x-1/2 text-[10px] font-mono text-indigo-300 opacity-0 group-hover:opacity-100 transition-opacity">35%</span>
+                            </div>
+                            <span class="text-[11px] text-slate-500 mt-2">الربع الرابع</span>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Simulation Trigger Buttons -->
-                <div class="space-y-2 pt-2">
-                    <button onclick="cyberEngine.simulateAttack()" class="w-full bg-rose-950/40 hover:bg-rose-900/60 text-rose-400 font-bold py-3 rounded-xl border border-rose-500/30 transition-all text-xs flex items-center justify-center gap-2">
-                        <i class="fa-solid fa-radiation animate-spin"></i> محاكاة هجوم اختراق خارجي (Stress Test)
-                    </button>
-                    
-                    <button onclick="cyberEngine.clearConsole()" class="w-full bg-slate-950 hover:bg-slate-900 text-slate-400 py-2.5 rounded-xl text-xs border border-slate-800 transition-all">
-                        تصفية سجلات النظام الحالي
-                    </button>
-                </div>
-            </div>
-
-            <!-- INTERACTIVE LINUX-LIKE TERMINAL -->
-            <div class="lg:col-span-2 bg-slate-950 p-5 rounded-2xl border-2 border-emerald-500/10 flex flex-col justify-between h-[380px] shadow-inner">
-                
-                <!-- Terminal Screen -->
-                <div id="terminal-screen" class="flex-1 overflow-y-auto code-font text-xs space-y-2 pr-1 leading-relaxed">
-                    <div class="text-emerald-600/80">[SYSTEM INFRASTRUCTURE] جاري فحص بوابات المخازن... الحماية 100%</div>
-                    <div class="text-slate-500">[HINT] جرب اكتب أمر <span class="text-amber-400">help</span> أو <span class="text-amber-400">secure</span> في مدخل الأوامر بالأسفل وصاحب الشغل هينبهر!</div>
-                </div>
-
-                <!-- Terminal Input Command Line -->
-                <div class="border-t border-emerald-500/20 pt-4 mt-2 flex gap-2 items-center">
-                    <span class="code-font text-emerald-500 font-bold shrink-0">Omar_Core_OS:~$</span>
-                    <input type="text" id="terminal-input" placeholder="اكتب أمر برمجى هنا واضغط Enter..." 
-                        class="w-full bg-transparent code-font text-slate-200 text-xs focus:outline-none border-none placeholder-emerald-800/60" autofocus>
+                <!-- LIVE INSIGHT LOGS -->
+                <div id="ai-logs" class="mt-4 p-3 bg-slate-950 rounded-xl border border-slate-900 text-[11px] font-mono text-indigo-300/80 leading-relaxed">
+                    [AI INSIGHT] جاهز للتحليل الاستراتيجي. حرك المؤشرات الجانبية لرؤية التغيير الفوري في هيكل الأرباح المتوقع.
                 </div>
             </div>
 
@@ -87,84 +114,68 @@
 
     </div>
 
-    <!-- CORE MICRO-ENGINE JAVASCRIPT (PRO LEVEL ONLY) -->
+    <!-- HIGH-LEVEL MATH & REVENUE FORECAST ENGINE -->
     <script>
-        class CyberShieldEngine {
+        class QuantumRevenueEngine {
             constructor() {
-                this.screen = document.getElementById('terminal-screen');
-                this.input = document.getElementById('terminal-input');
-                this.token = document.getElementById('live-token');
-                this.initTokenRotator();
-                this.initInputHandler();
+                this.priceSlider = document.getElementById('price-slider');
+                this.trafficSlider = document.getElementById('traffic-slider');
+                this.totalRevenueLabel = document.getElementById('predicted-revenue-total');
+                this.logBox = document.getElementById('ai-logs');
+                
+                this.initListeners();
             }
 
-            initTokenRotator() {
-                setInterval(() => {
-                    this.token.innerText = 'ENC_KEY_0x' + Math.floor(Math.random() * 16777215).toString(16).toUpperCase();
-                }, 2000);
-            }
-
-            initInputHandler() {
-                this.input.addEventListener('keydown', (e) => {
-                    if (e.key === 'Enter') {
-                        const command = this.input.value.trim().toLowerCase();
-                        this.executeCommand(command);
-                        this.input.value = '';
-                    }
+            initListeners() {
+                this.priceSlider.addEventListener('input', () => {
+                    document.getElementById('price-val').innerText = `${this.priceSlider.value} EGP`;
+                });
+                this.trafficSlider.addEventListener('input', () => {
+                    document.getElementById('traffic-val').innerText = `المستوى ${this.trafficSlider.value}`;
                 });
             }
 
-            writeLine(text, colorClass = 'text-emerald-400') {
-                const line = document.createElement('div');
-                line.className = `code-font ${colorClass}`;
-                line.innerText = `> ${text}`;
-                this.screen.appendChild(line);
-                this.screen.scrollTop = this.screen.scrollHeight;
+            computeForecast() {
+                const P = parseFloat(this.priceSlider.value);
+                const T = parseFloat(this.trafficSlider.value);
+
+                // معادلة تنبؤية برمجية مبنية لمحاكاة خوارزميات التسعير الفعلي وحساب المرونة السعرية
+                // الربح الإجمالي = (متوسط السعر * معامل المرور الإعلاني) * رقم عشوائي للمحاكاة الواقعية
+                const baseVolume = 1000 * T;
+                const priceElasticityFactor = P > 1200 ? 0.6 : (P < 400 ? 1.4 : 1.0);
+                const calculatedRevenue = Math.floor(P * baseVolume * priceElasticityFactor);
+
+                // تحديث الرقم الإجمالي في الشاشة بنظام عملات احترافي
+                this.totalRevenueLabel.innerText = `${calculatedRevenue.toLocaleString()} EGP`;
+
+                // حساب حصص الشارت ديناميكيًا وتعديل الارتفاع والـ Labels
+                const q1Share = Math.floor(20 + (T * 3));
+                const q2Share = Math.floor(35 + (P / 100));
+                const q3Share = Math.max(10, Math.floor(15 - (T * 2)));
+                const q4Share = Math.floor(100 - (q1Share + q2Share + q3Share));
+
+                this.updateChartBar('bar-q1', 'lbl-q1', q1Share);
+                this.updateChartBar('bar-q2', 'lbl-q2', q2Share);
+                this.updateChartBar('bar-q3', 'lbl-q3', q3Share);
+                this.updateChartBar('bar-q4', 'lbl-q4', q4Share);
+
+                // طباعة التقرير الذكي
+                this.logBox.innerHTML = `[AI FORECAST SUCCESS] تم معالجة البيانات بنجاح. سعر منتج بـ (${P} EGP) مع حملة إعلانية مستوى (${T}) سيؤدي لطلب متوقع بحجم ${(baseVolume * priceElasticityFactor).toFixed(0)} وحدة مبيعات. تم تحديث الشارت تفاعلياً.`;
             }
 
-            executeCommand(cmd) {
-                if(!cmd) return;
-                this.writeLine(`Omar_Core_OS:~$ ${cmd}`, 'text-slate-400');
-
-                switch(cmd) {
-                    case 'help':
-                        this.writeLine('الأوامر المدعومة بالنظام الفاجر:');
-                        this.writeLine(' status  -> لفحص كفاءة سيرفرات المخازن والأرباح.');
-                        this.writeLine(' secure  -> لتشغيل جدار الحماية ضد السرقة والتلاعب المالي.');
-                        this.writeLine(' clear   -> لتنظيف الشاشة البرمجية.');
-                        break;
-                    case 'status':
-                        this.writeLine('[INFO] كفاءة الاتصال: 99.98% | قواعد البيانات مشفرة بالكامل بالـ Blockchain.');
-                        break;
-                    case 'secure':
-                        this.writeLine('[SUCCESS] جاري تفعيل بروتوكول الحماية الكمي... تم عزل كافة الثغرات وتأمين الخزنة بنجاح!', 'text-cyan-400');
-                        break;
-                    case 'clear':
-                        this.clearConsole();
-                        break;
-                    default:
-                        this.writeLine(`عذرًا يا عمر، الأمر "${cmd}" غير معرف في النواة الحالية. اكتب help لعرض الأوامر.`, 'text-rose-400');
-                }
-            }
-
-            simulateAttack() {
-                this.writeLine('[CRITICAL WARNING] تم رصد محاولة اختراق على خادم المنتجات والمخازن!!', 'text-rose-500 font-bold pulse-fast');
+            updateChartBar(barId, lblId, percentage) {
+                const bar = document.getElementById(barId);
+                const lbl = document.getElementById(lblId);
                 
-                setTimeout(() => {
-                    this.writeLine('[ALGO ENGINE] نظام الذكاء الاصطناعي يتحرك تلقائياً لصد الهجوم...', 'text-amber-400');
-                }, 1000);
-
-                setTimeout(() => {
-                    this.writeLine('[SHIELD ACTIVE] تم حظر الآي بي المهاجم بنجاح! حماية الفلوس والداتا 100%.', 'text-emerald-400 font-bold');
-                }, 2500);
-            }
-
-            clearConsole() {
-                this.screen.innerHTML = '<div class="text-slate-500">[SYSTEM] تم تصفية السجلات بنجاح... الأنظمة مستقرة.</div>';
+                // كود لحظر كسر حدود التصميم
+                const safeHeight = Math.min(100, Math.max(15, percentage));
+                bar.style.height = `${safeHeight}%`;
+                lbl.innerText = `${safeHeight}%`;
             }
         }
 
-        const cyberEngine = new CyberShieldEngine();
+        // إطلاق محرك الأرباح ذكياً عند تحميل المنصة
+        const revenueAI = new QuantumRevenueEngine();
     </script>
 </body>
 </html>
